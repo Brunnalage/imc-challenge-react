@@ -6,11 +6,11 @@ const Title = ({tagName, Title}) => {
         case "h2":
             <TitleH2>{Title}</TitleH2>
         case "h3":
-            return <TitleH3>{text}</TitleH3>
+            return <TitleH3>{Title}</TitleH3>
         case "h4":
-            return <TitleH4>{text}</TitleH4>
+            return <TitleH4>{Title}</TitleH4>
         case "h5":
-            return <TitleH5>{text}</TitleH5>      
+            return <TitleH5>{Title}</TitleH5>      
     
 };
 };
