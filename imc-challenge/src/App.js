@@ -1,9 +1,13 @@
+import React from "react";
+import {ImcPage, ContainerStyled} from './App.styled';
 
 function App() {
   return (
-    <div>
+    <ImcPage>
+      <ContainerStyled>
       <p>teste</p>
-    </div>
+      </ContainerStyled>
+    </ImcPage>
   );
 }
 
