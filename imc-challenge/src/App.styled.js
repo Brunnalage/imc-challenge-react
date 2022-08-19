@@ -16,3 +16,9 @@ height: ${toRem(535)};
 background: rgba(255, 255, 255, 0.6);
 border-radius: ${toRem(15)};
 `;
+
+export const ContainerTitle = styled.div`
+display: flex;
+justify-content: center;
+margin-top:${toRem(18)};
+`;
