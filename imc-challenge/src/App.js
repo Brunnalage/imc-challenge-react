@@ -1,9 +1,16 @@
+import React from "react";
+import {ImcPage, ContainerStyled, ContainerTitle} from './App.styled';
+import Title from "./Components/Title/Title";
 
 function App() {
   return (
-    <div>
-      <p>teste</p>
-    </div>
+    <ImcPage>
+      <ContainerStyled>
+        <ContainerTitle>
+      <Title Title="Calcule seu IMC"/>
+      </ContainerTitle>
+      </ContainerStyled>
+    </ImcPage>
   );
 }
 
