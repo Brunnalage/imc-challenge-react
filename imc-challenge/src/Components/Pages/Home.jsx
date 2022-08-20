@@ -10,6 +10,7 @@ const Home = () => {
     const [weight, setWeight] = useState(0);    
     const [imc, setImc] = useState("00.00");
     const [info, setInfo] = useState(" Indice de Massa");
+    let heightValue = height / 100;
 
 
     function ChangeHeight(e) {
@@ -21,8 +22,7 @@ const Home = () => {
     }
 
     
-    const CalculateImc = () => {
-       let heightValue = height / 100;
+    const CalculateImc = () => {      
        let imcValue = weight /(heightValue * heightValue); 
        let imcSimple = imcValue.toFixed(2)      
        setImc(imcSimple) 
@@ -57,7 +57,7 @@ const Home = () => {
                     />
                     <ContainerData>
                         <Title id="DataTitle" Title="Altura"/>
-                        <Title id="NumberTitle" Title={height}/>
+                        <Title id="NumberTitle" Title={heightValue}/>
                     </ContainerData>
                     <InputRange
                         max={220}
