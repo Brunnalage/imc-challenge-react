@@ -11,6 +11,10 @@ font-style: normal;
 font-weight: 300;
 font-size: ${toRem(30)};
 line-height: ${toRem(45)};
+border: none;
+font-family: 'Poppins', sans-serif;
+margin-top: ${toRem(30)};
+margin-bottom: ${toRem(40)};
 color: #FFFFFF;
 cursor: pointer;
 &:hover{ 
