@@ -1,9 +1,9 @@
 import React from "react";
 import { InputRangeStyled } from "./InputRange.styled"
 
-const InputRange = () => {
+const InputRange = ({onChange, max, min}) => {
     return(
-        <InputRangeStyled type="range"/>
+        <InputRangeStyled onChange={onChange} max={max} min={min} type="range"/>
     )
 }
 
