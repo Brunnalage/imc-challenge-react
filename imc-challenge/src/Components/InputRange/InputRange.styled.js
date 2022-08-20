@@ -31,6 +31,9 @@ export const InputRangeStyled = styled.input`
     background: #F7B718;
     border-radius: 100%;
     border: 0;        
-    top: 0;  
+    top: 0;      
   }
+  @media screen and (max-width: 768px) {
+    width: auto;      
+    }
 `;

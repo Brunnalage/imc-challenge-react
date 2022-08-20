@@ -20,4 +20,7 @@ cursor: pointer;
 &:hover{ 
     background: #E0B90B;
 }
+@media screen and (max-width: 768px) {
+    width: auto;      
+    }
 `;

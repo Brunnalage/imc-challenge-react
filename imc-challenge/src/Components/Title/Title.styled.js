@@ -16,13 +16,19 @@ margin-block-end: 0;
     font-size: ${toRem(40)};
     line-height: ${toRem(43)};
     color: #F7B718;
+    @media screen and (max-width: 768px) {
+        font-size: ${toRem(30)};        
+    }
     }
 
     &.DataTitle{
     font-weight: 300;
     font-size: ${toRem(24)};
     line-height: ${toRem(36)};
-    color: #000000;    
+    color: #000000;  
+     @media screen and (max-width: 768px) {
+        font-size: ${toRem(20)};        
+    }  
     }
 
     &.ResultTitle{
@@ -30,6 +36,12 @@ margin-block-end: 0;
     font-size: ${toRem(26.8)};
     line-height: ${toRem(45)};
     color: #000000;
+    @media screen and (max-width: 768px) {
+        font-size: ${toRem(18)};        
+    }
+    }
+    @media screen and (max-width: 768px) {
+        font-size: ${toRem(30)};        
     }
 
 `;

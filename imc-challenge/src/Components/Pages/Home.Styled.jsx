@@ -15,6 +15,11 @@ width: ${toRem(834)};
 height: ${toRem(535)};
 background: rgba(255, 255, 255, 0.6);
 border-radius: ${toRem(15)};
+@media screen and (max-width: 768px) {
+width: 80%; 
+display: flex;
+justify-content: center;
+}
 `;
 
 export const ContainerImc = styled.div`
