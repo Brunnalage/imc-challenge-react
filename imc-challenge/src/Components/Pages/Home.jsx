@@ -65,7 +65,7 @@ const Home = () => {
                         onChange={ChangeHeight}
                     />
                     <Button type="button" Title="Calcular" onClick={onSubmit}/>
-                    <Title id="ResultTitle"Title={'IMC:' + imc} Info={info}></Title>
+                    <Title id="ResultTitle"Title={'IMC: ' + imc} Info={info}></Title>
                 </ContainerImc>
             </ContainerStyled>
         </ImcPage>
