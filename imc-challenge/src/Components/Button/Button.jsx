@@ -1,9 +1,9 @@
 import React from "react";
 import { ButtonStyled } from "./Button.styled";
 
-const Button = ({Title})=> {
+const Button = ({Title, onClick})=> {
     return(
-        <ButtonStyled>{Title}</ButtonStyled>
+        <ButtonStyled onClick={onClick}>{Title}</ButtonStyled>
     )
 }
 
